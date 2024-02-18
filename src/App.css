@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  width: 99%;
+}
+.title {
+  margin-left: -480px;
+}
+.logoYoutube {
+  width: 120px;
+  height: 120px;
+}
+.bg-body-tertiary {
+  width: 100% !important;
+}
+.nav {
+  margin-top: -40px;
+}
+.search {
+  margin-left: 300px;
+  width: 600px;
+  z-index: 2;
+  position: relative;
+  height: 39px;
+}
+#inpute {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.btnSpecail {
+  width: 200px;
+  border-radius: 100px;
+  position: absolute;
+  margin-left: 450px;
+  z-index: -1;
+  border: none;
+  height: 39px;
+}
+#CiSearch {
+  margin-left: 130px;
+  font-size: 28px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.comment-items {
+  margin-left: -700px;
+}
+.comment {
+  color: #1259e9;
+}
